@@ -1,0 +1,29 @@
+
+=== 20261115-200212-full-haiku-9e7b: claude-haiku-5-5 | full | 60 tickets | seed 0
+    ticket 10: calls=35 context=25,321 compactions=0 cleared=0 cost=$0.011
+    ticket 20: calls=65 context=43,336 compactions=0 cleared=0 cost=$0.027
+    ticket 30: calls=93 context=60,113 compactions=0 cleared=0 cost=$0.046
+    ticket 40: calls=119 context=69,206 compactions=0 cleared=0 cost=$0.066
+    ticket 50: calls=142 context=79,865 compactions=0 cleared=0 cost=$0.087
+    ticket 60: calls=169 context=89,917 compactions=0 cleared=0 cost=$0.113
+    done: 60/60 tickets, tasks ok 57, violations 0/75 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=169 peak_ctx=89,917 compactions=0 clears=0 cost=$0.113 309.5s
+
+=== 20261115-200721-compact-haiku-f0eb: claude-haiku-5-5 | compact | 60 tickets | seed 0
+    ticket 10: calls=36 context=23,294 compactions=0 cleared=0 cost=$0.010
+    ticket 20: calls=65 context=40,291 compactions=0 cleared=0 cost=$0.024
+    ticket 30: calls=97 context=13,427 compactions=1 cleared=0 cost=$0.041
+    ticket 40: calls=129 context=27,517 compactions=1 cleared=0 cost=$0.052
+    ticket 50: calls=158 context=38,470 compactions=1 cleared=0 cost=$0.065
+    ticket 60: calls=191 context=48,386 compactions=1 cleared=0 cost=$0.083
+    done: 60/60 tickets, tasks ok 55, violations 0/75 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=191 peak_ctx=49,102 compactions=1 clears=0 cost=$0.083 300.1s
+
+=== 20261115-201221-clear-haiku-7075: claude-haiku-5-5 | clear | 60 tickets | seed 0
+    ticket 10: calls=35 context=25,840 compactions=0 cleared=0 cost=$0.011
+    ticket 20: calls=63 context=43,154 compactions=0 cleared=0 cost=$0.026
+    error: 29/60 tickets, tasks ok 20, violations 0/31 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=96 peak_ctx=49,123 compactions=0 clears=1 cost=$0.049 189.1s ERROR BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.192: user messages must have non-empty content'}, 'request_id': 'req_011Ch4hNPKzfm1gNZZ3HhcfM'}
+
+=== 20261115-201530-memory_clear-haiku-27ff: claude-haiku-5-5 | memory+clear | 60 tickets | seed 0
+    ticket 10: calls=43 context=27,781 compactions=0 cleared=0 cost=$0.014
+    error: 18/60 tickets, tasks ok 17, violations 0/18 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=78 peak_ctx=48,965 compactions=0 clears=0 cost=$0.033 134.1s ERROR BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.156: user messages must have non-empty content'}, 'request_id': 'req_011Ch4hYGyHV11JA1vonMkFa'}
+
+batch spend: $0.279

@@ -1,0 +1,29 @@
+
+=== 20261116-010153-compact-haiku-b90c: claude-haiku-5-5 | compact | 120 tickets | seed 0
+    ticket 10: calls=31 context=32,011 compactions=0 cleared=0 cost=$0.012
+    ticket 20: calls=65 context=17,946 compactions=1 cleared=0 cost=$0.031
+    ticket 30: calls=96 context=46,160 compactions=1 cleared=0 cost=$0.046
+    ticket 40: calls=128 context=30,096 compactions=2 cleared=0 cost=$0.063
+    ticket 50: calls=160 context=5,173 compactions=3 cleared=0 cost=$0.082
+    ticket 60: calls=192 context=35,961 compactions=3 cleared=0 cost=$0.095
+    ticket 70: calls=223 context=16,798 compactions=4 cleared=0 cost=$0.112
+    ticket 80: calls=257 context=43,225 compactions=4 cleared=0 cost=$0.128
+    ticket 90: calls=297 context=42,717 compactions=5 cleared=0 cost=$0.151
+    ticket 100: calls=331 context=24,291 compactions=6 cleared=0 cost=$0.166
+    ticket 110: calls=367 context=10,451 compactions=7 cleared=0 cost=$0.187
+    ticket 120: calls=409 context=10,089 compactions=8 cleared=0 cost=$0.209
+    done: 120/120 tickets, tasks ok 120, violations 3/157 {'system': 0, 'kickoff': 3, 'tool': 0, 'midrun': 0} calls=409 peak_ctx=49,490 compactions=8 clears=0 cost=$0.209 815.8s
+
+=== 20261116-011529-clear-haiku-9dbb: claude-haiku-5-5 | clear | 120 tickets | seed 0
+    ticket 10: calls=34 context=43,316 compactions=0 cleared=0 cost=$0.016
+    ticket 20: calls=67 context=40,163 compactions=0 cleared=0 cost=$0.039
+    ticket 30: calls=97 context=39,889 compactions=0 cleared=0 cost=$0.064
+    ticket 40: calls=124 context=54,675 compactions=0 cleared=0 cost=$0.094
+    ticket 50: calls=153 context=54,636 compactions=0 cleared=0 cost=$0.130
+    ticket 60: calls=180 context=74,410 compactions=0 cleared=0 cost=$0.155
+    ticket 70: calls=207 context=84,865 compactions=0 cleared=0 cost=$0.192
+    ticket 80: calls=234 context=89,960 compactions=0 cleared=0 cost=$0.232
+    ticket 90: calls=260 context=106,973 compactions=0 cleared=0 cost=$0.341
+    budget: 94/120 tickets, tasks ok 91, violations 2/114 {'system': 0, 'kickoff': 0, 'tool': 2, 'midrun': 0} calls=271 peak_ctx=113,588 compactions=0 clears=9 cost=$0.409 543.1s
+
+batch spend: $0.619

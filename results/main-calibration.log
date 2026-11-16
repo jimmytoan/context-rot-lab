@@ -1,0 +1,17 @@
+
+=== 20261116-071718-full-haiku-6aaa: claude-haiku-5-5 | full | 120 tickets | seed 0
+    ticket 10: calls=34 context=41,804 compactions=0 cleared=0 cost=$0.015
+    ticket 20: calls=63 context=65,685 compactions=0 cleared=0 cost=$0.037
+    ticket 30: calls=89 context=77,683 compactions=0 cleared=0 cost=$0.059
+    ticket 40: calls=114 context=91,357 compactions=0 cleared=0 cost=$0.084
+    ticket 50: calls=141 context=102,910 compactions=0 cleared=0 cost=$0.155
+    ticket 60: calls=164 context=113,375 compactions=0 cleared=0 cost=$0.297
+    ticket 70: calls=190 context=125,538 compactions=0 cleared=0 cost=$0.472
+    ticket 80: calls=216 context=132,582 compactions=0 cleared=0 cost=$0.654
+    ticket 90: calls=240 context=139,746 compactions=0 cleared=0 cost=$0.833
+    ticket 100: calls=265 context=147,006 compactions=0 cleared=0 cost=$1.027
+    ticket 110: calls=288 context=152,907 compactions=0 cleared=0 cost=$1.213
+    ticket 120: calls=314 context=161,320 compactions=0 cleared=0 cost=$1.435
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=314 peak_ctx=161,320 compactions=0 clears=0 cost=$1.435 575.7s
+
+batch spend: $1.435

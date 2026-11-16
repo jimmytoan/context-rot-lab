@@ -1,0 +1,92 @@
+
+=== 20261116-111513-compact-sonnet-ea40: claude-sonnet-5-5 | compact | 120 tickets | seed 0
+    ticket 10: calls=34 context=38,923 compactions=0 cleared=0 cost=$0.208
+    ticket 20: calls=69 context=24,405 compactions=1 cleared=0 cost=$0.455
+    ticket 30: calls=96 context=46,889 compactions=1 cleared=0 cost=$0.648
+    ticket 40: calls=130 context=35,083 compactions=2 cleared=0 cost=$0.886
+    ticket 50: calls=166 context=19,544 compactions=3 cleared=0 cost=$1.131
+    ticket 60: calls=201 context=4,687 compactions=4 cleared=0 cost=$1.399
+    ticket 70: calls=229 context=28,737 compactions=4 cleared=0 cost=$1.549
+    ticket 80: calls=258 context=5,164 compactions=5 cleared=0 cost=$1.772
+    ticket 90: calls=294 context=46,186 compactions=5 cleared=0 cost=$2.019
+    ticket 100: calls=324 context=22,585 compactions=6 cleared=0 cost=$2.214
+    ticket 110: calls=353 context=48,315 compactions=6 cleared=0 cost=$2.421
+    ticket 120: calls=391 context=39,299 compactions=7 cleared=0 cost=$2.689
+    done: 120/120 tickets, tasks ok 118, violations 2/157 {'system': 0, 'kickoff': 2, 'tool': 0, 'midrun': 0} calls=391 peak_ctx=49,559 compactions=7 clears=0 cost=$2.689 879.3s
+
+=== 20261116-112953-clear-sonnet-6849: claude-sonnet-5-5 | clear | 120 tickets | seed 0
+    ticket 10: calls=35 context=38,932 compactions=0 cleared=0 cost=$0.206
+    ticket 20: calls=70 context=39,568 compactions=0 cleared=0 cost=$0.594
+    ticket 30: calls=98 context=36,912 compactions=0 cleared=0 cost=$0.841
+    ticket 40: calls=128 context=50,528 compactions=0 cleared=0 cost=$1.152
+    ticket 50: calls=160 context=42,516 compactions=0 cleared=0 cost=$1.568
+    ticket 60: calls=189 context=52,743 compactions=0 cleared=0 cost=$1.772
+    ticket 70: calls=218 context=51,590 compactions=0 cleared=0 cost=$2.089
+    ticket 80: calls=249 context=55,202 compactions=0 cleared=0 cost=$2.465
+    ticket 90: calls=277 context=65,273 compactions=0 cleared=0 cost=$2.699
+    ticket 100: calls=305 context=75,634 compactions=0 cleared=0 cost=$2.960
+    ticket 110: calls=331 context=68,449 compactions=0 cleared=0 cost=$3.336
+    ticket 120: calls=362 context=76,581 compactions=0 cleared=0 cost=$3.627
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=362 peak_ctx=77,055 compactions=0 clears=8 cost=$3.627 793.1s
+
+=== 20261116-114306-memory_clear-sonnet-5826: claude-sonnet-5-5 | memory+clear | 120 tickets | seed 0
+    ticket 10: calls=38 context=39,006 compactions=0 cleared=0 cost=$0.228
+    ticket 20: calls=73 context=41,065 compactions=0 cleared=0 cost=$0.525
+    ticket 30: calls=103 context=53,748 compactions=0 cleared=0 cost=$0.943
+    ticket 40: calls=133 context=56,842 compactions=0 cleared=0 cost=$1.385
+    ticket 50: calls=165 context=56,970 compactions=0 cleared=0 cost=$1.914
+    ticket 60: calls=195 context=64,258 compactions=0 cleared=0 cost=$2.334
+    ticket 70: calls=222 context=69,668 compactions=0 cleared=0 cost=$2.750
+    ticket 80: calls=251 context=81,803 compactions=0 cleared=0 cost=$3.048
+    ticket 90: calls=278 context=79,536 compactions=0 cleared=0 cost=$3.486
+    ticket 100: calls=306 context=91,534 compactions=0 cleared=0 cost=$3.806
+    ticket 110: calls=331 context=98,739 compactions=0 cleared=0 cost=$4.324
+    ticket 120: calls=362 context=108,480 compactions=0 cleared=0 cost=$4.727
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=362 peak_ctx=108,480 compactions=0 clears=10 cost=$4.727 882.9s
+
+=== 20261116-115749-compact-sonnet-155d: claude-sonnet-5-5 | compact | 120 tickets | seed 0
+    ticket 10: calls=34 context=38,921 compactions=0 cleared=0 cost=$0.204
+    ticket 20: calls=71 context=27,454 compactions=1 cleared=0 cost=$0.463
+    ticket 30: calls=102 context=4,757 compactions=2 cleared=0 cost=$0.706
+    ticket 40: calls=134 context=39,567 compactions=2 cleared=0 cost=$0.910
+    ticket 50: calls=169 context=20,567 compactions=3 cleared=0 cost=$1.142
+    ticket 60: calls=202 context=41,920 compactions=3 cleared=0 cost=$1.333
+    ticket 70: calls=235 context=8,909 compactions=4 cleared=0 cost=$1.519
+    ticket 80: calls=267 context=15,536 compactions=4 cleared=0 cost=$1.610
+    ticket 90: calls=296 context=22,057 compactions=4 cleared=0 cost=$1.720
+    ticket 100: calls=326 context=28,591 compactions=4 cleared=0 cost=$1.847
+    ticket 110: calls=356 context=34,307 compactions=4 cleared=0 cost=$1.991
+    ticket 120: calls=392 context=42,317 compactions=4 cleared=0 cost=$2.195
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=392 peak_ctx=49,557 compactions=4 clears=0 cost=$2.195 821.8s
+
+=== 20261116-121130-clear-sonnet-9e82: claude-sonnet-5-5 | clear | 120 tickets | seed 0
+    ticket 10: calls=34 context=38,881 compactions=0 cleared=0 cost=$0.203
+    ticket 20: calls=63 context=28,423 compactions=0 cleared=0 cost=$0.439
+    ticket 30: calls=88 context=35,378 compactions=0 cleared=0 cost=$0.646
+    ticket 40: calls=115 context=49,192 compactions=0 cleared=0 cost=$1.025
+    ticket 50: calls=143 context=51,289 compactions=0 cleared=0 cost=$1.447
+    ticket 60: calls=168 context=57,542 compactions=0 cleared=0 cost=$1.741
+    ticket 70: calls=194 context=56,747 compactions=0 cleared=0 cost=$2.066
+    ticket 80: calls=221 context=53,482 compactions=0 cleared=0 cost=$2.416
+    ticket 90: calls=245 context=63,680 compactions=0 cleared=0 cost=$2.624
+    ticket 100: calls=271 context=73,892 compactions=0 cleared=0 cost=$2.865
+    ticket 110: calls=295 context=79,536 compactions=0 cleared=0 cost=$3.097
+    ticket 120: calls=322 context=76,094 compactions=0 cleared=0 cost=$3.538
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=322 peak_ctx=83,315 compactions=0 clears=9 cost=$3.538 719.0s
+
+=== 20261116-122329-memory_clear-sonnet-748c: claude-sonnet-5-5 | memory+clear | 120 tickets | seed 0
+    ticket 10: calls=38 context=38,726 compactions=0 cleared=0 cost=$0.229
+    ticket 20: calls=75 context=37,984 compactions=0 cleared=0 cost=$0.527
+    ticket 30: calls=107 context=42,275 compactions=0 cleared=0 cost=$0.822
+    ticket 40: calls=139 context=52,115 compactions=0 cleared=0 cost=$1.166
+    ticket 50: calls=174 context=57,223 compactions=0 cleared=0 cost=$1.584
+    ticket 60: calls=207 context=58,238 compactions=0 cleared=0 cost=$1.944
+    ticket 70: calls=239 context=71,980 compactions=0 cleared=0 cost=$2.244
+    ticket 80: calls=271 context=73,101 compactions=0 cleared=0 cost=$2.707
+    ticket 90: calls=301 context=85,050 compactions=0 cleared=0 cost=$3.029
+    ticket 100: calls=332 context=97,304 compactions=0 cleared=0 cost=$3.396
+    ticket 110: calls=362 context=91,438 compactions=0 cleared=0 cost=$3.933
+    ticket 120: calls=398 context=101,513 compactions=0 cleared=0 cost=$4.365
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=398 peak_ctx=101,513 compactions=0 clears=7 cost=$4.365 869.7s
+
+batch spend: $21.142

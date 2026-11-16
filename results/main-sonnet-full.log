@@ -1,0 +1,17 @@
+
+=== 20261116-123800-full-sonnet-ea55: claude-sonnet-5-5 | full | 120 tickets | seed 0
+    ticket 10: calls=34 context=38,863 compactions=0 cleared=0 cost=$0.208
+    ticket 20: calls=68 context=57,859 compactions=0 cleared=0 cost=$0.472
+    ticket 30: calls=97 context=67,130 compactions=0 cleared=0 cost=$0.710
+    ticket 40: calls=127 context=81,536 compactions=0 cleared=0 cost=$1.004
+    ticket 50: calls=159 context=92,224 compactions=0 cleared=0 cost=$1.347
+    ticket 60: calls=189 context=102,400 compactions=0 cleared=0 cost=$1.703
+    ticket 70: calls=217 context=113,639 compactions=0 cleared=0 cost=$2.071
+    ticket 80: calls=247 context=120,170 compactions=0 cleared=0 cost=$2.472
+    ticket 90: calls=275 context=126,448 compactions=0 cleared=0 cost=$2.869
+    ticket 100: calls=302 context=133,057 compactions=0 cleared=0 cost=$3.270
+    ticket 110: calls=329 context=138,640 compactions=0 cleared=0 cost=$3.685
+    ticket 120: calls=362 context=146,552 compactions=0 cleared=0 cost=$4.219
+    done: 120/120 tickets, tasks ok 120, violations 0/157 {'system': 0, 'kickoff': 0, 'tool': 0, 'midrun': 0} calls=362 peak_ctx=146,552 compactions=0 clears=0 cost=$4.219 794.0s
+
+batch spend: $4.219

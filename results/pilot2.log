@@ -1,0 +1,41 @@
+
+=== 20261116-003514-compact-haiku-f943: claude-haiku-5-5 | compact | 100 tickets | seed 0
+    ticket 10: calls=36 context=36,581 compactions=0 cleared=0 cost=$0.015
+    ticket 20: calls=67 context=20,041 compactions=1 cleared=0 cost=$0.031
+    ticket 30: calls=98 context=4,865 compactions=2 cleared=0 cost=$0.049
+    ticket 40: calls=135 context=44,303 compactions=2 cleared=0 cost=$0.067
+    ticket 50: calls=171 context=34,329 compactions=3 cleared=0 cost=$0.085
+    ticket 60: calls=202 context=11,771 compactions=4 cleared=0 cost=$0.103
+    ticket 70: calls=236 context=37,327 compactions=4 cleared=0 cost=$0.118
+    ticket 80: calls=259 context=43,658 compactions=4 cleared=0 cost=$0.130
+    ticket 90: calls=291 context=15,677 compactions=5 cleared=0 cost=$0.145
+    ticket 100: calls=322 context=24,869 compactions=5 cleared=0 cost=$0.155
+    done: 100/100 tickets, tasks ok 94, violations 1/136 {'system': 0, 'kickoff': 1, 'tool': 0, 'midrun': 0} calls=322 peak_ctx=49,472 compactions=5 clears=0 cost=$0.155 555.4s
+
+=== 20261116-004429-clear-haiku-cbed: claude-haiku-5-5 | clear | 100 tickets | seed 0
+    ticket 10: calls=33 context=32,723 compactions=0 cleared=0 cost=$0.012
+    ticket 20: calls=62 context=25,713 compactions=0 cleared=0 cost=$0.029
+    ticket 30: calls=93 context=45,087 compactions=0 cleared=0 cost=$0.046
+    ticket 40: calls=120 context=41,523 compactions=0 cleared=0 cost=$0.064
+    ticket 50: calls=147 context=54,908 compactions=0 cleared=0 cost=$0.081
+    ticket 60: calls=171 context=52,633 compactions=0 cleared=0 cost=$0.102
+    ticket 70: calls=199 context=61,200 compactions=0 cleared=0 cost=$0.121
+    ticket 80: calls=221 context=67,030 compactions=0 cleared=0 cost=$0.137
+    ticket 90: calls=245 context=73,664 compactions=0 cleared=0 cost=$0.157
+    ticket 100: calls=269 context=81,613 compactions=0 cleared=0 cost=$0.179
+    done: 100/100 tickets, tasks ok 94, violations 2/136 {'system': 0, 'kickoff': 0, 'tool': 2, 'midrun': 0} calls=269 peak_ctx=81,613 compactions=0 clears=3 cost=$0.179 372.3s
+
+=== 20261116-005042-memory_clear-haiku-8266: claude-haiku-5-5 | memory+clear | 100 tickets | seed 0
+    ticket 10: calls=37 context=42,540 compactions=0 cleared=0 cost=$0.019
+    ticket 20: calls=64 context=45,211 compactions=0 cleared=0 cost=$0.039
+    ticket 30: calls=97 context=47,764 compactions=0 cleared=0 cost=$0.072
+    ticket 40: calls=126 context=63,850 compactions=0 cleared=0 cost=$0.104
+    ticket 50: calls=152 context=68,181 compactions=0 cleared=0 cost=$0.135
+    ticket 60: calls=176 context=79,637 compactions=0 cleared=0 cost=$0.158
+    ticket 70: calls=204 context=94,734 compactions=0 cleared=0 cost=$0.187
+    ticket 80: calls=226 context=103,085 compactions=0 cleared=0 cost=$0.250
+    ticket 90: calls=249 context=101,983 compactions=0 cleared=0 cost=$0.329
+    ticket 100: calls=273 context=112,695 compactions=0 cleared=0 cost=$0.481
+    done: 100/100 tickets, tasks ok 70, violations 2/136 {'system': 0, 'kickoff': 0, 'tool': 2, 'midrun': 0} calls=273 peak_ctx=112,695 compactions=0 clears=6 cost=$0.481 632.8s
+
+batch spend: $0.816
